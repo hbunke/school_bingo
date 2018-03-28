@@ -1,0 +1,62 @@
+body {
+            margin: 0 0 0 0;
+            font-family: sans-serif;
+}
+
+#termcontainer {
+    min-width:400px; 
+    min-height: 200px;
+    /*background-color:#607D8B; */
+    /*color: white;*/
+    color: #212121;
+    padding: 20%,20%,20%,20%;
+    font-size: 6rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 20% 0 20%;
+    margin-top: 50px;
+}
+#head {
+    background-color:#455A64;
+    width:100%;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-size: 2em;
+    text-align:center;
+    
+}
+#play {
+    padding: 25px;
+    background-color:#00BCD4;
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    text-align:center;
+    box-shadow: 1rem 0 0 #00BCD4, -0.5rem 0 0 #00BCD4;
+    position: fixed;
+    top:0px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    position: fixed;
+    padding: 10px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 20px;
+    background-color: #455A64;
+    font-size: 0.75em;
+    color: white;
+}
+
+#done_terms {
+    max-width:200px;
+    position:fixed;
+    top:200px;
+    padding:6px;
+    color: grey;
+}

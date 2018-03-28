@@ -1,20 +1,28 @@
+<!DOCTYPE html>
+
 <html>
     <head>
-        <title>test bingo</title>
+        <title>School Bingo</title>
+        <script src="underscore-min.js"></script>
         <script src="bingo.js"></script>
+        <link rel="stylesheet" href="bingo.css" />
+        <meta charset="utf-8" />
     </head>
     <body>
-        <h1>Bingo</h1>
-
-        <p>
+        <div id="head">
+            Bingo <br /> <strong>Soziale Marktwirtschaft</strong>
+        </div>
+        <p style"text-align:center;">
             <a id="play" onclick="random_term()" href="#">Play!</a>
-         </p>
-
-         <div id="termcontainer" style="min-width:400px; min-height: 200px;
-             background-color:darkgrey; color: white;">
+        </p>
+        <div id="done_terms">
+         </div>
+         <div id="termcontainer">
             
          </div>
-
+         <footer>
+             Hendrik Bunke, 03/2018
+         </footer>
 
     </body>
 </html>
